@@ -9,3 +9,5 @@ his will be used to identify the biodiversity inorder to monitor endangered spec
 - Wav2Vec
 
 https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/
+
+- [Chirp to Classification: Identifying 50 Bird Species by Sound with Transformer-Based Machine Learning Model](https://medium.com/p/dfd46979847a)
