@@ -11,3 +11,7 @@ his will be used to identify the biodiversity inorder to monitor endangered spec
 - [Chirp to Classification: Identifying 50 Bird Species by Sound with Transformer-Based Machine Learning Model](https://medium.com/p/dfd46979847a)
 
 - [Ambient Noise](https://www.youtube.com/watch?v=7kLzyZ9gBa0)
+
+- [Audio Deep Learning Made Simple: Sound Classification, Step-by-Step](https://towardsdatascience.com/audio-deep-learning-made-simple-sound-classification-step-by-step-cebc936bbe5)
+
+- [Bird songs from Europe (xeno-canto)](https://www.kaggle.com/datasets/monogenea/birdsongs-from-europe/data)
