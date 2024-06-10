@@ -1,0 +1,9 @@
+numpy
+pandas
+torchaudio
+tqdm
+transformers
+datasets
+evaluate
+scikit-learn
+matplotlib
