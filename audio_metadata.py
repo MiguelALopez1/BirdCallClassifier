@@ -1,17 +1,21 @@
-import pandas as pd
 from pathlib import Path
+import pandas as pd
 
-# Define paths
-data_path = Path.cwd()/'BirdSongsEurope'
-metadata_file = data_path/'metadata.csv'
+# path to dataset
+download_path = Path.cwd() / 'BirdSongsEurope'
 
-# Read metadata file
+# read metadata file as a data frame
+metadata_file = download_path / 'metadata.csv'
 df = pd.read_csv(metadata_file)
 
-# Correct the relative paths for audio files
-df['relative_path'] = 'mp3/' + df['Path'].apply(lambda x: x.split('/')[-1])  # Ensure this matches the actual file structure
+# construct file path by concatenating folder and file name
+df['relative_path'] = df['Path'].astype(str)
 
-# Select relevant columns
+# Take relevant columns
 df = df[['relative_path', 'Species']]
-df.to_csv(data_path/'prepared_metadata.csv', index=False)
-print("Metadata prepared and saved to:", data_path/'prepared_metadata.csv')
+
+# Save the modified metadata
+prepared_metadata_file = download_path / 'prepared_metadata.csv'
+df.to_csv(prepared_metadata_file, index=False)
+
+print(f"Metadata prepared and saved to: {prepared_metadata_file}")
