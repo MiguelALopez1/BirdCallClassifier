@@ -7,6 +7,7 @@ his will be used to identify the biodiversity inorder to monitor endangered spec
 ## Resources
 - [Burooj Ghani, the God of Bird Audio Classification
 ](https://bghani.github.io/publications/)
+ - burooj.ghani@naturalis.nl
 - [Automatic acoustic detection of birds through
 deep learning: the first Bird Audio Detection
 challenge](https://arxiv.org/pdf/1807.05812)
