@@ -5,6 +5,7 @@ We plan to create an Neural Network that will take in audio clips of different s
 his will be used to identify the biodiversity inorder to monitor endangered species. The initial code is heavily inspired by the [Audio Deep Learning Made Simple: Sound Classification, Step-by-Step](https://towardsdatascience.com/audio-deep-learning-made-simple-sound-classification-step-by-step-cebc936bbe5) aritcle. We are looking into the open source project [BirdNet](https://github.com/kahst/BirdNET-Analyzer). The dataset we are doing initial test on is [Bird songs from Europe (xeno-canto)](https://www.kaggle.com/datasets/monogenea/birdsongs-from-europe/data). In order to use it please create a *BirdSongsEurope* directory and move the *mp3* directory and the *metadata.csv* into it.
 
 ## Resources
+-[Data Augmentation for Environmental Sound Classification Using Diffusion Probabilistic Model with Top-K Selection Discriminator](https://www.researchgate.net/publication/372752943_Data_Augmentation_for_Environmental_Sound_Classification_Using_Diffusion_Probabilistic_Model_with_Top-K_Selection_Discriminator)
 - [Implement the Spectrogram from scratch in python](https://fairyonice.github.io/implement-the-spectrogram-from-scratch-in-python.html)
 - [Burooj Ghani, the God of Bird Audio Classification
 ](https://bghani.github.io/publications/)
